@@ -1,7 +1,19 @@
-import "./App.css";
+import Background from "./Background/Background";
+import Title from "./Title/Title";
+import Grid from "./Grid/Grid";
 
-function App() {
-  return <div className="App"></div>;
+import React from "react";
+
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Background />
+        <Title />
+        <Grid />
+      </div>
+    );
+  }
 }
 
 export default App;

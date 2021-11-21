@@ -1,0 +1,15 @@
+.grid {
+  display: flex;
+  column-count: 4;
+  grid-template-rows: 5em;
+  align-self: center;
+  align-content: flex-start;
+  justify-items: center;
+  align-items: flex-start;
+  grid-auto-columns: 500px;
+  font-family: "Helvetica", sans-serif;
+  background-color: aquamarine;
+  opacity: 40%;
+  column-gap: 80px;
+  padding: 10px 20px 10px 20px;
+}

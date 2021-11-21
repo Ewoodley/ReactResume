@@ -1,0 +1,45 @@
+.gridItem:hover {
+  height: 20rem;
+  width: 70rem;
+  background-color: white;
+  opacity: 100%;
+}
+.animateexp {
+  animation-name: fadeInLeftBig;
+  animation-duration: 3s;
+}
+.animateexp2 {
+  animation-name: fadeInRightBig;
+  animation-duration: 3s;
+}
+@keyframes fadeInLeftBig {
+  from {
+    opacity: 0;
+    transform: translate3d(-2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeftBig {
+  animation-name: fadeInLeftBig;
+}
+
+@keyframes fadeInRightBig {
+  from {
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInRightBig {
+  animation-name: fadeInRightBig;
+}

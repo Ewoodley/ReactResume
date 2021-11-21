@@ -1,0 +1,16 @@
+.backgroundItems {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.blackhole {
+  composes: backgroundItems;
+  background-image: url(../Images/bh_accretiondisk_sim_stationary_websize.gif);
+  background-size: cover;
+}
